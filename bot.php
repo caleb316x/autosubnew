@@ -9,9 +9,9 @@
     ];
     $site = "";
     $cookies = array(
-        "__cfduid=d5a1a7196c7f809df0309924a62b13ac61612092545; PHPSESSID=26d9fd5a88d0f735b84104acdf0584e7; cookieaccepted=1",
-        "__cfduid=dd72f7db1efc75da6f185d2c75de0cf331612241839; PHPSESSID=11763f3f67542404d57730f3f27c66e9",
-        "__cfduid=dd6b1e4e38c27afd5a071d232dfbe4d521612241853; wp-mautic=3e75d9d82da588895b5493f63a906b18; shopmagic_visitor_2ce92169499dedcaba0407336093908c=%7B%22meta%22%3A%5B%5D%2C%22hash%22%3A%2287ee24ba0e3dc1db61f0f5ee7ee425ac%22%7D; PHPSESSID=7e8c39a9a18ea02bf10c69336dd24f5b"
+        "__cfduid=d73ee4baa9e729b9abcc34dbc7371f5971612253098; PHPSESSID=a430f19ac03d7ddb570c9aa0abde373b",
+        "__cfduid=d2f4e0c6ee174a128e30ca26014c72d4c1612253263; PHPSESSID=e0da6fff199539c2fd67640b99b65321",
+        "__cfduid=d6f11a7782dc7546c0cd5f2447ea37c861612253470; PHPSESSID=a07d9abf39753e9b1666e9b6a3056126"
     );
     $count = 0;
     $chkcount = true;
