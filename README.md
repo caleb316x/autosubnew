@@ -2,9 +2,7 @@ BOT using Termux
 
 #intall php in Termux app
 
-apt update
-apt upgrade
-apt install php
+apt update\napt upgrade\napt install php
 
 #install git 
 
