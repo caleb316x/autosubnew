@@ -18,7 +18,7 @@ git clone https://github.com/caleb316x/autosubnew.git
 
 #open directory
 
-ls autosubnew
+cd autosubnew
 
 #run bot
 
