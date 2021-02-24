@@ -2,6 +2,9 @@
     ini_set('max_execution_time', 0);
     $cid = "UCLe_RrkhnWJOXRR6NiLRtfQ";
     // $cid = "UCt1CtCER_N5AuNLP2vsbtog";
+
+    
+
     $domains = [
         "www.subpals.com",
         "www.sonuker.com",
@@ -18,17 +21,21 @@
     $count = 0;
     $chkcount = true;
 
-    echo "Choose Which Site to Login\n";
-    for($x = 0; $x < count($domains); $x++){
-        echo "[".($x+1)."] ".$domains[$x]."\n";
+    if(isset($_GET["u"])){
+        $site = $domains[intval($_GET['u']) - 1];
+        $cookie = $cookies[$sel_site - 1];
     }
+    else{
+        echo "Choose Which Site to Login\n";
+        for($x = 0; $x < count($domains); $x++){
+            echo "[".($x+1)."] ".$domains[$x]."\n";
+        }
 
-    $sel_site = readline("Enter number: ");
-    $new_cookie = readline("Enter cookie: ");
-
-    $site = $domains[$sel_site - 1];
-    $cookie = $cookies[$sel_site - 1];
-
+        $sel_site = readline("Enter number: ");
+        $new_cookie = readline("Enter cookie: ");
+        $site = $domains[$sel_site - 1];
+        $cookie = $cookies[$sel_site - 1];    
+    }
 
     function get_count(){
         global $cid,$site,$chkcount,$cookie;
@@ -183,7 +190,13 @@
                         echo "Plan Acticated\n";
                     }
                     else{
-                        get_count();
+                        if(isset($_GET["u"])){
+                            echo "end here!";
+                            exit;
+                        }
+                        else{
+                            get_count();
+                        }
                     }
                 }
                 elseif($res['status'] == "activated"){
