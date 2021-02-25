@@ -2,8 +2,8 @@
     ini_set('max_execution_time', 0);
     $cid = "UCLe_RrkhnWJOXRR6NiLRtfQ";
     // $cid = "UCt1CtCER_N5AuNLP2vsbtog";
-
     
+    echo $argv[0];
 
     $domains = [
         "www.subpals.com",
@@ -23,7 +23,14 @@
 
     if(isset($_GET["u"])){
         $site = $domains[intval($_GET['u']) - 1];
-        $cookie = $cookies[$sel_site - 1];
+        $cookie = $cookies[intval($_GET['u'])- 1];
+
+        echo $site;
+    }
+    elseif(isset($argv[1])){
+        echo "pass argv\n";
+        $site = $domains[intval($argv[1]) - 1];
+        $cookie = $cookies[intval($argv[1]) - 1];
     }
     else{
         echo "Choose Which Site to Login\n";
@@ -120,7 +127,16 @@
                     sleep(2);
 
                     // echo "GET_SUB()";
-                    get_subs($subs);
+                    if(isset($_GET["u"]) || !empty($argv[1])){
+                        get_subs($subs);
+                        echo "end here!";
+                        exit;
+                    }
+                    else{
+                        get_subs($subs);
+                    }
+                    
+
                 }
                 else{
                     echo "20 Subs Completed!";
@@ -190,11 +206,17 @@
                         echo "Plan Acticated\n";
                     }
                     else{
+                        echo "here 1\n";
                         if(isset($_GET["u"])){
-                            echo "end here!";
+                            echo "end here! 1";
+                            exit;
+                        }
+                        elseif(isset($argv[1])){
+                            echo "end here! 2";
                             exit;
                         }
                         else{
+                            echo "not end\n";
                             get_count();
                         }
                     }
@@ -212,8 +234,17 @@
                     // echo "Video ID: $videoid \n";
                     // echo "================================\n";
                     // echo $response."\n";
-                    sleep(2);
-                    get_subs($subs);
+                    
+                    echo "here 2\n";
+                    if(isset($_GET["u"]) || !empty($argv[1])){
+                        echo "end here!";
+                        exit;
+                    }
+                    else{
+                        sleep(2);
+                        get_subs($subs);
+                    }
+                   
                 }
             }
             else{
