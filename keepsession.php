@@ -2,6 +2,7 @@
 
 $cookie = "__cfduid=d5a1a7196c7f809df0309924a62b13ac61612092545; PHPSESSID=26d9fd5a88d0f735b84104acdf0584e7; cookieaccepted=1; wp-mautic=e3a6bed0523ae9e6693b98dc40315271; sb-updates=3.1.3; shopmagic_visitor_84938ff465a7a5148a30ef3d43f9bfff=%7B%22meta%22%3A%5B%5D%2C%22hash%22%3A%22d80115171dfbf6f5f65237646cdc26bf%22%7D";
 $site = "www.subpals.com";
+
 function home(){
     global $site,$cookie,$new_cookie;
     $curl = curl_init();
