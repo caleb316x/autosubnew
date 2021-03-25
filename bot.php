@@ -12,6 +12,18 @@
         "www.subpals.com",
         "www.sonuker.com",
         "www.ytpals.com",
+        "www.subpals.com",
+        "www.sonuker.com",
+        "www.ytpals.com",
+        "www.subpals.com",
+        "www.sonuker.com",
+        "www.ytpals.com",
+        "www.subpals.com",
+        "www.sonuker.com",
+        "www.ytpals.com",
+        "www.subpals.com",
+        "www.sonuker.com",
+        "www.ytpals.com",
     ];
     $site = "";
     $cookies = array(
@@ -20,7 +32,8 @@
         "__cfduid=dd6b1e4e38c27afd5a071d232dfbe4d521612241853; wp-mautic=3e75d9d82da588895b5493f63a906b18; shopmagic_visitor_2ce92169499dedcaba0407336093908c=%7B%22meta%22%3A%5B%5D%2C%22hash%22%3A%2287ee24ba0e3dc1db61f0f5ee7ee425ac%22%7D; PHPSESSID=7e8c39a9a18ea02bf10c69336dd24f5b",
         "__cfduid=d4d771faa587db4d76fc0691d13cc597f1614661695; PHPSESSID=2cd279949f0a5b01b6d1b91e8310869a",
         "__cfduid=d011241e171dbe909bacda4121b68246b1614661737; PHPSESSID=44de0db23815f608e4cab6ad5c875121",
-        "__cfduid=d56973776daa2bfa29d3259184c7217661614661714; wp-mautic=3334e23628fa415b09d1234f720daac4; shopmagic_visitor_2ce92169499dedcaba0407336093908c=%7B%22meta%22%3A%5B%5D%2C%22hash%22%3A%2287ee24ba0e3dc1db61f0f5ee7ee425ac%22%7D; PHPSESSID=76121c8c14d504d1df11b11d902a1495"
+        "__cfduid=d56973776daa2bfa29d3259184c7217661614661714; wp-mautic=3334e23628fa415b09d1234f720daac4; shopmagic_visitor_2ce92169499dedcaba0407336093908c=%7B%22meta%22%3A%5B%5D%2C%22hash%22%3A%2287ee24ba0e3dc1db61f0f5ee7ee425ac%22%7D; PHPSESSID=76121c8c14d504d1df11b11d902a1495",
+        " __cfduid=d4d9daa3cd334b490093232ee8da45caa1616658323; PHPSESSID=36678ce65ef70884a9755c3e7b5feb6a"
     );
     
     $count = 0;
