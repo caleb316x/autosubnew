@@ -28,7 +28,7 @@
     $site = "";
     $cookies = array(
         "__cfduid=d69dc41b94393fe3c068b5962f4ce31621617266406; PHPSESSID=234ab8d2e53ee205274bd8f9308351b7",
-        "__cfduid=dd72f7db1efc75da6f185d2c75de0cf331612241839; PHPSESSID=11763f3f67542404d57730f3f27c66e9",
+        "__cfduid=ddec44baf8452de42ca82a11e2b07fa5f1617268567; PHPSESSID=a8b54613a65e70f0b7fcec3e00a72de2",
         "__cfduid=dd6b1e4e38c27afd5a071d232dfbe4d521612241853; wp-mautic=3e75d9d82da588895b5493f63a906b18; shopmagic_visitor_2ce92169499dedcaba0407336093908c=%7B%22meta%22%3A%5B%5D%2C%22hash%22%3A%2287ee24ba0e3dc1db61f0f5ee7ee425ac%22%7D; PHPSESSID=7e8c39a9a18ea02bf10c69336dd24f5b",
         "__cfduid=d4d771faa587db4d76fc0691d13cc597f1614661695; PHPSESSID=2cd279949f0a5b01b6d1b91e8310869a",
         "__cfduid=d011241e171dbe909bacda4121b68246b1614661737; PHPSESSID=44de0db23815f608e4cab6ad5c875121",
