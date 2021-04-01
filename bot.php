@@ -27,7 +27,7 @@
     ];
     $site = "";
     $cookies = array(
-        "__cfduid=d5a1a7196c7f809df0309924a62b13ac61612092545; PHPSESSID=26d9fd5a88d0f735b84104acdf0584e7; cookieaccepted=1; wp-mautic=e3a6bed0523ae9e6693b98dc40315271; sb-updates=3.1.3; shopmagic_visitor_84938ff465a7a5148a30ef3d43f9bfff=%7B%22meta%22%3A%5B%5D%2C%22hash%22%3A%22d80115171dfbf6f5f65237646cdc26bf%22%7D",
+        "__cfduid=d69dc41b94393fe3c068b5962f4ce31621617266406; PHPSESSID=234ab8d2e53ee205274bd8f9308351b7",
         "__cfduid=dd72f7db1efc75da6f185d2c75de0cf331612241839; PHPSESSID=11763f3f67542404d57730f3f27c66e9",
         "__cfduid=dd6b1e4e38c27afd5a071d232dfbe4d521612241853; wp-mautic=3e75d9d82da588895b5493f63a906b18; shopmagic_visitor_2ce92169499dedcaba0407336093908c=%7B%22meta%22%3A%5B%5D%2C%22hash%22%3A%2287ee24ba0e3dc1db61f0f5ee7ee425ac%22%7D; PHPSESSID=7e8c39a9a18ea02bf10c69336dd24f5b",
         "__cfduid=d4d771faa587db4d76fc0691d13cc597f1614661695; PHPSESSID=2cd279949f0a5b01b6d1b91e8310869a",
